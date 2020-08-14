@@ -1,0 +1,9 @@
+
+Rutter 
+
+
+#bundle exec rails webpacker:install:stimulus
+
+yarn add stimulus
+
+
