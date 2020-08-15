@@ -5,7 +5,6 @@
 #   Last up:  15 aug
 #
 
-
 #bundle exec rails webpacker:install:stimulus
 
 yarn add stimulus
@@ -32,15 +31,29 @@ Add to rails
 
 - install node and yarn 
 
-- install webpack 
+  brew install yarn
 
+  brew install node 
+    sudo chown -R $USER /usr/local
+    brew link node
+    
+
+
+
+- install webpack 
 rails webpacker:install 
 
+error browserslist@4.14.0: 
+The engine "node" is incompatible with this module. 
+Expected version "^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7". 
+Got "13.5.0"
 
-Run side by side with Rails 
+error Found incompatible module.
+
+
+# Run side by side with Rails
 ------------------------------
 webpack dev server (or watcher)
-
-bin/webpack/dev-server 
+bin/webpack/dev-server  
 
 
