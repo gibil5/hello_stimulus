@@ -1,5 +1,9 @@
-
-Rutter 
+#
+#   Rutter 
+#
+#   Created:  14 aug 2020 
+#   Last up:  15 aug
+#
 
 
 #bundle exec rails webpacker:install:stimulus
@@ -7,3 +11,34 @@ Rutter
 yarn add stimulus
 
 
+# -----------------------------------------------------------------------------
+#    webpacker 
+# -----------------------------------------------------------------------------
+
+asset compiler and packager  
+
+
+Dependencies 
+-------------
+webpack 
+node.js 
+yarn      a replacement for the npm, to add node modules to Rails  
+
+
+Add to rails 
+-------------
+- add gem 
+  gem 'webpacker', '~> 4.0'
+
+- install node and yarn 
+
+- install webpack 
+
+rails webpacker:install 
+
+
+Run side by side with Rails 
+------------------------------
+webpack dev server (or watcher)
+
+bin/webpack/dev-server 
