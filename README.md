@@ -1,24 +1,12 @@
-# README
+# README - Hello Stimulus 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Created: 15 Aug 2020
 
-Things you may want to cover:
+### Last up: 15 Aug 2020
 
-* Ruby version
+Easy example for the Stimulus controller. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+From: 
+```
+https://stimulusjs.org/handbook/introduction
+```
