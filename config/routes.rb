@@ -4,4 +4,7 @@ Rails.application.routes.draw do
 
   #jx
   root "pages#home"
+
+  #get 'slideshow'
+  get 'slideshow', to: 'pages#slideshow'
 end
