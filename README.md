@@ -36,9 +36,9 @@ rails webpacker:install
 ```
 
 
-### Features
+## Features
 
-#### Controllers 
+### Controllers 
 
 * hello 
 
