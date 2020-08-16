@@ -1,8 +1,8 @@
 # README - Hello Stimulus 
 
-### Created: 15 Aug 2020
+#### Created: 15 Aug 2020
 
-### Last up: 16 Aug 2020
+#### Last up: 16 Aug 2020
 
 Easy example for the Stimulus controller. From: 
 ```
@@ -33,4 +33,14 @@ brew install node
   brew link node
   
 rails webpacker:install 
- ```
+```
+
+
+### Features
+
+* hello controller 
+
+* clipboard controller
+
+* slideshow controller
+
