@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   #get 'slideshow'
   get 'slideshow', to: 'pages#slideshow'
+
+  get 'content', to: 'pages#content_loader'
 end

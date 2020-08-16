@@ -1,10 +1,29 @@
 
+<style media="screen">
+  
+  .slide {
+    display: none;
+  }
+
+  .slide.slide--current {
+    display: block;
+  }
+</style>
+
+<!--
 <div data-controller="slideshow">
+-->
+<div data-controller="slideshow" data-slideshow-index="1">
+
+  <!-- Actions -->
   <button data-action="slideshow#previous">←</button>
   <button data-action="slideshow#next">→</button>
 
+
+  <!-- Targets -->
   <div data-target="slideshow.slide" class="slide">🐵</div>
   <div data-target="slideshow.slide" class="slide">🙈</div>
   <div data-target="slideshow.slide" class="slide">🙉</div>
   <div data-target="slideshow.slide" class="slide">🙊</div>
+
 </div>

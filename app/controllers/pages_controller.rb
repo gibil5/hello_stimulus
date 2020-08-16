@@ -5,4 +5,7 @@ class PagesController < ApplicationController
 
   def slideshow
   end
+
+  def content_loader
+  end
 end
