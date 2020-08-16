@@ -38,9 +38,11 @@ rails webpacker:install
 
 ### Features
 
-* hello controller 
+## Controllers 
 
-* clipboard controller
+* hello 
 
-* slideshow controller
+* clipboard
+
+* slideshow
 
